@@ -93,6 +93,13 @@ git clone [远程地址]
 git remote 
 git remote -v
 
+修改远程仓库地址：
+git remote origin set-url [url]
+
+先删后加
+git remote rm origin
+git remote add origin [url]
+
 8 拉取
 
 pull=fetch + merge
